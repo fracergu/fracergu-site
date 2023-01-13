@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+dist
+*.local
+.eslintcache
+*.config.js
+*.conf.js
+.*.js
+.angular
+coverage

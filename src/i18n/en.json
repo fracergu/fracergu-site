@@ -1,0 +1,55 @@
+{
+  "current-language": "en",
+  "pages": {
+    "index": {
+      "public-projects": {
+        "title": "Public projects 🚀",
+        "items": {
+          "css-background-generator": {
+            "title": "CSS plasma background generator",
+            "description": "A plasma background generator written in Javascript. Ideal for generating a background for your web, or practicing with CSS animations and gradients."
+          },
+          "ngrx-express-boilerplate": {
+            "title": "Angular + Express boilerplate",
+            "description": "An Angular + Express boilerplate to create web applications with a NodeJS backend. It also includes Angular Material, NgRx and Jest."
+          },
+          "vite-react-express": {
+            "title": "Vite + React + Express boilerplate",
+            "description": "A Vite + React + Express boilerplate to create web applications with a NodeJS backend. It also includes ESLint and Prettier."
+          },
+          "porkbun-ddns-updater": {
+            "title": "Porkbun dynamic DNS updater",
+            "description": "Python script to update Porkbun DNS dynamically. Ideal for having a server at home and accessing it from the internet."
+          },
+          "hik-script": {
+            "title": "HIKScript",
+            "description": "Python script to detect and exploit the ICSA-17-124-01 vulnerability, also known as Hikvision Camera Backdoor."
+          }
+        }
+      },
+      "lab-tools": {
+        "title": "Lab tools 🧪"
+      }
+    },
+    "about": {
+      "greeting": "Hi! My name is <1>Francisco</1> and I'm a <1>frontend</1> developer.",
+      "who-am-i": {
+        "title": "Who am I?",
+        "p1": "I'm Francisco Cerdán (Paco, for friends 😁), I'm {{age}} years old and I'm from a small town in the interior of Alicante.",
+        "p2": "I'm currently working as a frontend developer at <2>Nomasystems</2> and I love learning new things and sharing knowledge."
+      },
+      "main-stack": {
+        "title": "My main stack"
+      },
+      "what-do-i-do": {
+        "title": "What do I do?",
+        "p1": "I'm currently working on the development of frontends for applications in the private sector with Angular and React. My main design technology is TDD (Karma, Jest), I am familiar with reactive programming (RxJS), and also work daily with the Redux pattern react-redux, NgRx, Akita)."
+      },
+      "after-work": {
+        "title": "After work",
+        "p1": "In my free time I also like to train and do small projects that have to do with technology, such as the small software laboratory that I have at home and is the reason for being of this website. In it, I like to tinker with Docker and set up my own Git, CI / CD and documentation services, so as not to limit myself only to create code.",
+        "p2": "I'm also a big fan of everything related to cybersecurity and artificial intelligence, and I dedicate time to research on these topics."
+      }
+    }
+  }
+}

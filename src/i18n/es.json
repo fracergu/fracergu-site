@@ -1,0 +1,55 @@
+{
+  "current-language": "es",
+  "pages": {
+    "index": {
+      "public-projects": {
+        "title": "Proyectos públicos 🚀",
+        "items": {
+          "css-background-generator": {
+            "title": "Generador de fondos CSS efecto Plasma",
+            "description": "Un generador de fondos animados escrito en Javascript. Ideal para generar un fondo para tu web, o practicar con animaciones y gradientes CSS."
+          },
+          "ngrx-express-boilerplate": {
+            "title": "Boilerplate de Angular + Express",
+            "description": "Un boilerplate de Angular + Express para crear aplicaciones web con un backend en NodeJS. También incluye Angular Material, NgRx y Jest."
+          },
+          "vite-react-express": {
+            "title": "Boilerplate de Vite + React + Express",
+            "description": "Un boilerplate de Vite + React + Express para crear aplicaciones web con un backend en NodeJS. Incluye ESLint y Prettier."
+          },
+          "porkbun-ddns-updater": {
+            "title": "Actualizador de DNS dinámico de Porkbun",
+            "description": "Script Python para actualizar las DNS de Porkbun de forma dinámica. Ideal para tener un servidor en casa y acceder a él desde internet."
+          },
+          "hik-script": {
+            "title": "HIKScript",
+            "description": "Script Python para detectar y explotar la vulnerabilidad ICSA-17-124-01, también conocida como Hikvision Camera Backdoor."
+          }
+        }
+      },
+      "lab-tools": {
+        "title": "Herramientas del lab 🧪"
+      }
+    },
+    "about": {
+      "greeting": "Hola! Me llamo <1>Francisco</1> y soy desarrollador <1>frontend</1>.",
+      "who-am-i": {
+        "title": "¿Quién soy?",
+        "p1": "Soy Francisco Cerdán (Paco, para los amigos 😁), tengo {{age}} años y soy de un pequeño pueblo del interior de Alicante.",
+        "p2": "Actualmente trabajo como desarrollador frontend en <2>Nomasystems</2> y me encanta aprender cosas nuevas y compartir conocimiento."
+      },
+      "main-stack": {
+        "title": "Mi stack principal"
+      },
+      "what-do-i-do": {
+        "title": "¿Qué hago?",
+        "p1": "Actualmente me trabajo en el desarrolo de frontales para aplicaciones del sector privado con Angular y React. Mi metodología e diseño es TDD (Karma, Jest), estoy familiarizado con la programación reactiva (RxJS), y trabajo a diario con el patrón Redux react-redux, NgRx, Akita)."
+      },
+      "after-work": {
+        "title": "Después del trabajo",
+        "p1": "En mi tiempo libre también me gusta formarme y hacer pequeños proyectos que tengan que ver con la tecnología, como el pequeño laboratorio de software que tengo en mi casa y es la razón de ser de esta página web. En él, me gusta trastear con Docker y montar mis propios servicios de Git, CI/CD y documentación, para no limitarme sólamente crear código.",
+        "p2": "También me llama mucho la atención todo lo relacionado con la seguridad informática y la inteligencia artificial, y me gusta mucho investigar sobre estos temas."
+      }
+    }
+  }
+}

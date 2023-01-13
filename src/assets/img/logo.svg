@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="11.739 9.099 202.044 279.5" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <polygon style="fill: rgb(162, 224, 255);" points="13 9 213 9 213 100 115 100"/>
+    <polygon style="fill: rgb(70, 177, 254);" points="13 100 213 100 213 188 108.5 188" transform="matrix(-1, 0, 0, -1, 223.478001, 288.197998)"/>
+    <polygon style="fill: rgb(41, 95, 255);" points="12 188 113 288 113 188"/>
+  </g>
+</svg>
