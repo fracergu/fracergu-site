@@ -38,7 +38,6 @@ const Brand = styled.div`
   align-items: center;
   gap: 1em;
   & img {
-    width: 20px;
     transition: all 1s ease;
     &:hover {
       transform: rotate(360deg);
@@ -53,7 +52,7 @@ const Title = styled.a`
 `
 
 const Logo = styled.img`
-  width: 20px;
+  width: 32px;
   transition: all 1s ease;
   &:hover {
     transform: rotate(360deg);

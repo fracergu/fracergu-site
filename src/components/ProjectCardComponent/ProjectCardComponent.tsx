@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { useCheckUrlStatus } from '../../hooks/checkUrlStatus'
+import { useCheckUrlStatus } from '../../hooks/checkContainerStatus'
 
 export enum ProjectCardComponentTestIds {
   Card = 'ProjectCardComponentCard'

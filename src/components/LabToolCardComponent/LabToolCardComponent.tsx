@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { useCheckUrlStatus } from '../../hooks/checkUrlStatus'
+import { useCheckUrlStatus } from '../../hooks/checkContainerStatus'
 
 export enum LabToolCardComponentTestIds {
   Card = 'LabToolCardComponentCard'
@@ -71,12 +71,16 @@ const Title = styled.h3`
 
 type LabToolCardComponentProps = {
   url: string
+  container: string
   children: React.ReactNode
 }
 
-const LabToolCardComponent = ({ url, children }: LabToolCardComponentProps): JSX.Element => {
-  const { status } = useCheckUrlStatus(url)
-
+const LabToolCardComponent = ({
+  url,
+  container,
+  children
+}: LabToolCardComponentProps): JSX.Element => {
+  const { status } = useCheckUrlStatus(container)
   return (
     <Card
       data-testid={LabToolCardComponentTestIds.Card}
