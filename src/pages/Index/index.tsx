@@ -36,10 +36,15 @@ const Index = (): JSX.Element => {
     <div>
       <Title>{t('pages.index.lab-tools.title')}</Title>
       <LabToolCardComponentGroup>
-        <LabToolCardComponent url="https://git.fracergu.dev">Gitea</LabToolCardComponent>
-        <LabToolCardComponent url="https://drone.fracergu.dev">Drone</LabToolCardComponent>
-        <LabToolCardComponent url="https://wiki.fracergu.dev">Wiki</LabToolCardComponent>
-        <LabToolCardComponent url="https://portainer.fracergu.dev">Portainer</LabToolCardComponent>
+        <LabToolCardComponent url="https://git.fracergu.dev" container="gitea">
+          Gitea
+        </LabToolCardComponent>
+        <LabToolCardComponent url="https://drone.fracergu.dev" container="drone">
+          Drone
+        </LabToolCardComponent>
+        <LabToolCardComponent url="https://wiki.fracergu.dev" container="bookstack">
+          Wiki
+        </LabToolCardComponent>
       </LabToolCardComponentGroup>
       <Title>{t('pages.index.public-projects.title')}</Title>
       <ProjectCardComponentGroup>
