@@ -5,6 +5,10 @@
       "public-projects": {
         "title": "Public projects 🚀",
         "items": {
+          "react-gpt": {
+            "title": "React GPT",
+            "description": "A client for ChatGPT, made with React and TailwindCSS. It works using the OpenAI API and the gpt3.5-turbo model."
+          },
           "css-background-generator": {
             "title": "CSS plasma background generator",
             "description": "A plasma background generator written in Javascript. Ideal for generating a background for your web, or practicing with CSS animations and gradients."

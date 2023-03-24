@@ -49,6 +49,11 @@ const Index = (): JSX.Element => {
       <Title>{t('pages.index.public-projects.title')}</Title>
       <ProjectCardComponentGroup>
         <ProjectCardComponent
+          title={t('pages.index.public-projects.items.react-gpt.title')}
+          description={t('pages.index.public-projects.items.react-gpt.description') || undefined}
+          href="https://fracergu.github.io/react-gpt/"
+        />
+        <ProjectCardComponent
           title={t('pages.index.public-projects.items.css-background-generator.title')}
           description={
             t('pages.index.public-projects.items.css-background-generator.description') || undefined
