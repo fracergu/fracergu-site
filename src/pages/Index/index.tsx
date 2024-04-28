@@ -36,12 +36,6 @@ const Index = (): JSX.Element => {
     <div>
       <Title>{t('pages.index.lab-tools.title')}</Title>
       <LabToolCardComponentGroup>
-        <LabToolCardComponent url="https://git.fracergu.dev" container="gitea">
-          Gitea
-        </LabToolCardComponent>
-        <LabToolCardComponent url="https://drone.fracergu.dev" container="drone">
-          Drone
-        </LabToolCardComponent>
         <LabToolCardComponent url="https://wiki.fracergu.dev" container="bookstack">
           Wiki
         </LabToolCardComponent>
@@ -59,30 +53,6 @@ const Index = (): JSX.Element => {
             t('pages.index.public-projects.items.css-background-generator.description') || undefined
           }
           href="https://fracergu.github.io/css-plasma-background-generator/"
-        />
-
-        <ProjectCardComponent
-          title={t('pages.index.public-projects.items.ngrx-express-boilerplate.title')}
-          description={
-            t('pages.index.public-projects.items.ngrx-express-boilerplate.description') || undefined
-          }
-          href="https://github.com/fracergu/ngrx-express-boilerplate"
-        />
-
-        <ProjectCardComponent
-          title={t('pages.index.public-projects.items.vite-react-express.title')}
-          description={
-            t('pages.index.public-projects.items.vite-react-express.description') || undefined
-          }
-          href="https://github.com/fracergu/vite-react-express"
-        />
-
-        <ProjectCardComponent
-          title={t('pages.index.public-projects.items.porkbun-ddns-updater.title')}
-          description={
-            t('pages.index.public-projects.items.porkbun-ddns-updater.description') || undefined
-          }
-          href="https://github.com/fracergu/porkbun-ddns-updater"
         />
         <ProjectCardComponent
           title={t('pages.index.public-projects.items.hik-script.title')}
