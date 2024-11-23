@@ -108,12 +108,6 @@ const NavbarComponent = ({ title }: NavbarComponentProps): JSX.Element => (
     </Brand>
     <Links data-testid={NavbarComponentTestIds.Links}>
       <NavbarLink>
-        <NavLink to="/">Lab</NavLink>
-      </NavbarLink>
-      <NavbarLink>
-        <NavLink to="/about">About</NavLink>
-      </NavbarLink>
-      <NavbarLink>
         <a href="https://www.linkedin.com/in/fcerdanguerrero/" target="_blank" rel="noreferrer">
           <LinkLogo src={linkedin} alt="linkedin" />
         </a>
